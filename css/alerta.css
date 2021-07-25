@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 597px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 25px;
+}
+
+.box .content h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box .content h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.box img {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.information {
+    background-color: #CDE5FE;
+    border: 1px solid #B6D9FD;
+    color: #325981;
+}
+
+.congratulations {
+    background-color: #D4ECDA;
+    border: 1px solid #C0DDC7;
+    color: #326E41;
+}
+
+.heads_up {
+    background-color: #FFF2CF;
+    border: 1px solid #FCEABB;
+    color: #836A27;
+}
+
+.error {
+    background-color: #F7D7DA;
+    border: 1px solid #F5C3C8;
+    color: #723036;
+}
