@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Fipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fipe.css">
+</head>
+<body>
+    <div class="container">
+
+        <img class = "logo" src="./images/unime-logo.svg" alt="logo">
+        <h1>Consulta Fipe UNIME</h1>
+        <h2>
+            Aqui você encontra o preço de qualquer veículo terrestre <br>
+            comercializado no Brasil.
+        </h2>
+
+        <hr>
+
+        <h3>Qual tipo de veículo você procura?</h3>
+
+        <div class="vehicles">
+
+            <div class="vehicle">
+                <img src="/images/moto.svg" alt="motocicleta">
+            </div>
+
+            <div class="vehicle">
+                <img src="./images/truck.svg" alt="caminhão">
+            </div>
+
+            <div class="vehicle">
+                <img src="./images/car.svg" alt="carro">
+            </div>
+
+        </div>
+        
+        <form action="">
+
+            <h3>Selecione o fabricante do veículo</h3>
+            <select name="brand" id="brand">
+                <option value="1">Ford</option>
+                <option value="2">Hyundai</option>
+                <option value="3">Volkswagen</option>
+            </select>
+
+            <h3>Selecione o modelo do veículo</h3>
+            <select name="model" id="model">
+                <option value="1">Fusion 2.5L I-VCL Flex Automático</option>
+                <option value="2">Fusion 2.5L I-VCL Flex Manual</option>
+                <option value="3">Fusion 2.5L I-VCL Flex Hibrido</option>
+            </select>
+
+            <h3>Selecione o ano do veículo</h3>
+            <select name="version" id="version">
+                <option value="1">2015 gasolina</option>
+                <option value="2">2016 álcool</option>
+                <option value="3">2013 flex</option>
+            </select>
+            
+            <div class=button-container>
+                <button class="search">
+                    Buscar preço
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <div class="header">Curso de Férias - Unime 2020</div>
+        <div class="subtitle">Você no caminho certo para o mercado o seu futuro!</div>
+    </div>
+</body>
+</html>
